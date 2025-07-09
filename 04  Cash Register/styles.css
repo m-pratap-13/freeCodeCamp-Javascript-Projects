@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #1b1b32;
+}
+main {
+  color: white;
+  width: 100%;
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+input {
+  width: 280px;
+  height: 40px;
+  margin-bottom: 10px;
+  outline: none;
+  text-align: center;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+#purchase-btn {
+  width: 100px;
+  height: 30px;
+  background-color: chocolate;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#purchase-btn:hover {
+  background-color: #9f9ff8;
+}
+#total {
+  background-color: black;
+  width: 220px;
+  height: 60px;
+  border: 10px solid cornflowerblue;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+#box {
+  background-color: cornflowerblue;
+  width: 50px;
+  height: 40px;
+  margin-right: 80px;
+}
+#top-register {
+  background-color: cornflowerblue;
+  width: 320px;
+  height: 320px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+#button {
+  width: 75px;
+  height: 77px;
+  margin-left: 30px;
+  margin-top: 70px;
+}
+#cash-drawer-display {
+  background-color: aliceblue;
+  width: 175px;
+  height: 280px;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  color: #1b1b32;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bottom-div {
+  background-color: cornflowerblue;
+  width: 320px;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bottom-div div {
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
